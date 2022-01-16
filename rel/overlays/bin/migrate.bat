@@ -1,0 +1,1 @@
+call "%~dp0\elixir_release_database" eval ElixirReleaseDatabase.Release.migrate

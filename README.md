@@ -50,3 +50,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
   prod.exs
     url: [host: System.get_env("RENDER_EXTERNAL_HOSTNAME") || "localhost", port: 80],
+
+
+    mix phx.gen.html Accounts User users name:string username:string
