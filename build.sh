@@ -20,4 +20,4 @@ MIX_ENV=prod mix release --overwrite
 #MIX_ENV=prod mix phx.gen.release --overwrite
 
 # for auto DB migration upon deploy
-#MIX_ENV=prod mix ecto.migrate 
+MIX_ENV=prod mix ecto.migrate 
